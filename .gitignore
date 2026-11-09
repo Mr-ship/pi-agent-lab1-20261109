@@ -1,0 +1,12 @@
+# Credentials, dependencies, caches, and third-party restricted sources
+.env
+.env.*
+auth.json
+models.json
+node_modules/
+.pi/
+pi-test/.pi/npm/
+pi-test/.pi/skills/pptx/
+*.log
+__pycache__/
+!.gitignore
