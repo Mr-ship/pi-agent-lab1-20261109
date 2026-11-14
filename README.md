@@ -1,7 +1,6 @@
 # 实践课1 Pi Agent 安装与基础使用实验报告
 
 实验日期：2026年11月9日  
-GitHub 账号：Mr-ship  
 姓名拼音：龚健  
 实验环境：Windows、Node.js v24.18.0、npm 11.16.0、Pi 1.5.0。
 
