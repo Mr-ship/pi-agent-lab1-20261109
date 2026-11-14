@@ -1,6 +1,0 @@
-{
-  "packages": ["npm:pi-web-access"],
-  "defaultProvider": "deepseek",
-  "defaultModel": "deepseek-flash",
-  "defaultThinkingLevel": "off"
-}
