@@ -18,8 +18,6 @@ cd pi-test
 pi
 ```
 
-版本检查得到 `1.5.0`。启动截图包含版本、当前工作目录和底部模型状态，证明客户端已运行。初次启动自动下载辅助搜索工具 fd 超时，后从 sharkdp/fd 官方 release 下载 v10.5.2 补齐，后续启动不再出现该警告。
-
 ![S1 Pi 启动](screenshots/S1_pi_started.png)
 
 ## 二 配置模型并完成会话
@@ -119,7 +117,7 @@ pi install npm:pi-web-access -l --approve
 
 固定源 commit：`2c5958ecac7cee2b583967a2c4981d0f4a75c579`。
 
-Pi 实际执行下载和按目录解压。核查结果为 56 个源文件，另有记录来源的 `SOURCE.txt`，共 57 个文件。用 GitHub tree 的 blob SHA 与本地 `git hash-object` 逐文件比较：56 个源文件、0 个不匹配。
+Pi 实际执行下载和按目录解压。
 
 ```text
 pi-test/
@@ -159,13 +157,11 @@ pi-test/
 
 ![S8b 显式调用](screenshots/S8b_skill_invoked.png)
 
-Skill 的许可证限制复制与再分发，因此第三方 Skill 源文件仅保留在本机，不随作业仓库分发。仓库保留来源、commit、哈希核验和验收截图。
 
 ## 七 截图与提交说明
 
 所有最终截图统一位于 `screenshots/`。
-仓库只保存报告、截图、原始小图片、hello.py 和不含密钥的复现配置。凭据、依赖、会话原始日志、被替代的排查截图、第三方受限源文件均不上传。
-
+仓库只保存报告、截图、原始小图片、hello.py 和不含密钥的复现配置。
 
 ## 参考资料
 
